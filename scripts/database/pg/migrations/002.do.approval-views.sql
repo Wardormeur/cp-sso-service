@@ -1,0 +1,15 @@
+/* We don t use an enum to avoid having to update it */
+-- CREATE OR REPLACE VIEW cd_app_user_approval AS
+-- (SELECT id, entity_id, app_id, token, created_at
+-- FROM cd_app_approval
+-- WHERE entity_type = 'user');
+--
+-- CREATE OR REPLACE VIEW cd_app_dojo_approval AS
+-- (SELECT id, entity_id, app_id, token, created_at
+-- FROM cd_app_approval
+-- WHERE entity_type = 'dojo');
+--
+-- CREATE OR REPLACE VIEW cd_app_regional_body_approval AS
+-- (SELECT id, entity_id, app_id, token, created_at
+-- FROM cd_app_approval
+-- WHERE entity_type = 'regional_body');
